@@ -33,7 +33,7 @@ console.log(monthdiff);
 
 let inputdate_currentdate = document.createElement("div");
 inputdate_currentdate.className= "main1"
-inputdate_currentdate.innerHTML = `Input date : ${ inputdate}, Current date: ${currentdate}`;
+inputdate_currentdate.innerHTML = `Entered date : ${ inputdate}`;
 document.body.append(inputdate_currentdate);
 
 let yeardata = document.createElement("div");
