@@ -48,7 +48,7 @@ document.body.append(monthdata);
 
 let daydata = document.createElement("div");
 daydata.className= "main1"
-daydata.innerHTML = `Days:${yeardiff}`;
+daydata.innerHTML = `Days:${daydiff}`;
 document.body.append(daydata);
 
 let hoursdata = document.createElement("div");
